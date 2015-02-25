@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class Test
 {
   public static void main (String[] args) throws java.lang.Exception
   {
