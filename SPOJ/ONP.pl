@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Written by Jean Dominique Jaymalin
+
 use strict;
 use warnings;
 
