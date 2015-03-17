@@ -22,7 +22,6 @@ for (my $i=0; $i<$input_no; $i++) {
     # If palindrome is odd
     elsif (($in_legth % 2) != 0) {
         $pal1 = substr $input, 0, $middle_idx;
-        #$pal2 = reverse $pal1;
         $middle_val = substr $input, $middle_idx, 1;
         $pal1 = $pal1 . $middle_val;
     }
