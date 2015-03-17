@@ -17,7 +17,7 @@ for (my $i=0; $i<$inputNo; $i++){
     while ($quo >= 1) {
         $quo = $input/$divisor;
         $divisor *= 5;
-        $count = $count + int $quo;
+        $count += int $quo;
     }
     print $count . "\n";
 }
