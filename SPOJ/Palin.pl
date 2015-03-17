@@ -19,9 +19,10 @@ for (my $i=0; $i<$input_no; $i++) {
         $palindrome = $input+1;
     }
 
+    # If palindrome is odd
     elsif (($in_legth % 2) != 0) {
         $pal1 = substr $input, 0, $middle_idx;
-        $pal2 = reverse $pal1;
+        #$pal2 = reverse $pal1;
         $middle_val = substr $input, $middle_idx, 1;
         $pal1 = $pal1 . $middle_val;
     }
@@ -35,6 +36,7 @@ for (my $i=0; $i<$input_no; $i++) {
     while ($palindrome <= $input){
         $pal1++;
         if (($in_legth % 2) != 0) {
+            $pal2 =  reverse (substr $pal1, 0, $middle_idx);
             $palindrome = $pal1 . $pal2;
         }
         else {
